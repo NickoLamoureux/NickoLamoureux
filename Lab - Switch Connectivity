@@ -1,0 +1,43 @@
+#Packet Tracer Lab - Switch and Router Connectivity
+
+**Date:** October, 2026
+**Security Domain:** Network Infrastructure
+**Tools & Hardware Used:** Cisco Packet Tracer 
+
+---
+
+## 1. Scenario & Objective
+Use Packet Tracer and knowledge of Network Infrastructure to check and create connectivity between 3 PCs and 
+a newly placed Switch & Router. Ensure that the PCs can ping each other, the intermediary devices and the Internet.
+
+## 2. Architecture & Design
+
+I am unsure how to insert an image into this .txt document!
+
+## 3. Methodology & Execution
+
+1. **Initial Assessment:** - The PCs were not configured with IPs/Subnet Masks/Default Gateways. Neither were
+the Switch or the Router. I determined everything would need to be configured from scratch. We set to work on the Router
+and Switch first, then the PCs
+
+2. **Configuration / Execution:** - I used the IP Configuration program on the PCs to set up IPv4 Addresses with 
+appropriate Subnet Masks and Default Gateways to match our Switch. Then I configured the appropriate settings
+on the intermediary devices and checked to ensure everything was properly addresses and configured.
+
+3. **Validation:** - I checked that the PCs could ping between each other and had connectivity to the Switch. After
+this I made sure they were able to get to the Router and access the internet as well. All pings were successful. I
+determined that the network was functional and working as intended.
+
+## 4. Challenges & Troubleshooting - There was some mild difficulty remembering some of the IP config commands
+for the Router and Switch, but my Command Reference Guide came in handy and I was able to complete the task.
+
+
+* **Issue Encountered:** - PC-A could not ping the default gateway
+* **Troubleshooting Steps:** - Went back to doublecheck that the PC had the same Default Gateway as Switch. It did not so I updated it
+* **Resolution:** Discovered the port was assigned to the wrong VLAN. Reassigned to VLAN 10, which restored connectivity.]
+
+## 5. Conclusion & Lessons Learned
+This Lab taught me a ton about the basic functions of a network and how PCs interact with each other on a LAN.
+It is very important to understand how networks work so we can better build & protect them.
+
+**Final Outcome:** - The network was functioning as it should and all PCs and intermediary devices had connectivity.
